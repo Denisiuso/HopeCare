@@ -2,9 +2,6 @@ h3 {
   font-size: 26px;
 }
 
-
-
-
 .achtergrondIndex {
   padding-bottom: 180px;
 }
@@ -17,7 +14,7 @@ h3 {
 }
 
 nav {
-  background-image: url(../images/navbar-background2.png);
+  background-image: url(/images/navbar-background2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -208,7 +205,7 @@ nav {
   margin-top: 20px;
 }
 
-@media (min-width: 768px) and (max-width: 1635px) {
+@media (min-width: 992px) and (max-width: 1635px) {
   h2 {
     font-size: 20px;
   }
@@ -240,10 +237,11 @@ nav {
     display: flex;
     flex-direction: column;
   }
-
-  .Ark-img {
-    margin-left: 105%;
+  
+  .Ark-img{
+    margin-left: 150%;
   }
+  
   .Vrijetijdnooitthuis {
     height: 130px;
   }
@@ -251,12 +249,19 @@ nav {
     margin-right: 0px;
   }
 }
+
+
 @media (max-width: 992px) {
   .navbarlogo {
     display: none;
   }
   .navbar {
     --bs-navbar-padding-y: 5rem;
+  }
+  .arkrij{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (max-width: 768px) {
@@ -274,5 +279,13 @@ nav {
 
   .card-body-text {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .aanmeldenbox{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 }
