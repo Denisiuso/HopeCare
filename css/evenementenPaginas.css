@@ -1,0 +1,124 @@
+h1 {
+  padding-top: 1%;
+  padding-bottom: 2%;
+  font-family: "Libre Baskerville", serif;
+  font-size: 80px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+h4 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 900;
+}
+
+.ondersteuningsTextBox {
+  padding-left: 8%;
+  padding-right: 8%;
+  height: 620px;
+  background-color: #b8c57f78;
+  font-size: 22px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 900;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-style: double;
+  place-items: center;
+  padding-top: 110px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+}
+.achtergrondPariDaiza {
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url(/images/uitstapPairiDaizaAchtergrond.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+}
+.achtergrondMetejoor {
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url(/images/metejoorAchtergrond.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+}
+.eenjarigbestaan {
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url(/images/hopecareEvenementAchtergrond.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+}
+.achtergrondBakworkshop {
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url(/images/bakworkshopAchtergrond.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+}
+.arkVanPollareAchtergrond {
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url(/images/arkVanPollareAchtergrond.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+}
+.achtergrondBowlingEvent {
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url(/images/achtergrondBowlingEvent.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+}
+.achtergrondDiamondPainting {
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url(/images/diamondpaintingAchtergrond.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+}
+.achtergrondWellness {
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url(/images/wellnessAchtergrond.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+}
+.ondersteuningsFotos {
+  border-radius: 5%;
+  height: 620px;
+  width: 700px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}

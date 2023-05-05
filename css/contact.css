@@ -1,0 +1,242 @@
+h1 {
+  margin-top: 20px;
+  padding-bottom: 0.5%;
+  font-family: "Libre Baskerville", serif;
+  font-size: 60px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bolder;
+  font-size: 50px;
+  padding-bottom: 0px;
+}
+
+h3 {
+  padding-bottom: 20px;
+}
+.formdiv {
+  display: flex;
+  justify-content: center;
+}
+.socialdiv {
+  display: flex;
+  justify-content: center;
+}
+.contactForm {
+  display: flex;
+  justify-content: center;
+}
+
+.googlediv {
+  display: flex;
+  justify-content: center;
+}
+.socialMedia {
+  margin-top: 50px;
+  padding-top: 20px;
+  background: linear-gradient(
+    0deg,
+    rgba(84, 97, 169, 1) 0%,
+    rgba(172, 180, 226, 1) 100%
+  );
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 8%;
+}
+
+.fa-brands {
+  color: #3874ff;
+}
+
+.fa-solid {
+  color: #3874ff;
+}
+
+.form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Libre Baskerville", serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+.emailAdresInput {
+  margin-left: 4px;
+}
+
+.verzend {
+  color: white;
+  border-radius: 15%;
+  background: gray;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.verzend:hover {
+  background: #ffffff;
+  color: black;
+}
+
+.socialMediaLinks {
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  
+  
+}
+
+.socialmediaLijn {
+  
+  padding-left: 20px;
+  padding-top: 40px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.contactFormulier {
+  margin-top: 40px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: rgba(219, 204, 204, 0.35);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 8%;
+}
+.bericht {
+  padding-bottom: 2%;
+}
+
+.googleMaps {
+  margin-top: 40px;
+  padding-bottom: 110px;
+  padding-top: 50px;
+
+  background-color: rgba(219, 204, 204, 0.35);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 8%;
+}
+
+.contactText {
+  height: 150px;
+}
+
+/* icons color changed when hover over and basic color*/
+
+.fa-square-facebook {
+  padding-right: 15px;
+}
+
+.fa-square-facebook:hover {
+  color: rgb(27, 254, 251);
+}
+
+.fa-instagram {
+  color: rgb(227, 13, 109);
+  padding-right: 15px;
+}
+
+.fa-instagram:hover {
+  color: rgb(27, 254, 251);
+}
+.fa-tiktok {
+  color: black;
+  padding-right: 15px;
+}
+.fa-tiktok:hover {
+  color: rgb(27, 254, 251);
+}
+.fa-whatsapp {
+  color: rgb(47, 255, 89);
+  padding-right: 15px;
+}
+
+.fa-phone-volume {
+  color: aqua;
+  padding-right: 15px;
+}
+
+.fa-envelope {
+  color: rgb(42, 159, 165);
+  padding-right: 15px;
+}
+
+@media (max-width: 1610px) {
+  .contactFormulier {
+    height: 530px;
+  }
+
+  .googleMaps {
+    width: 400px;
+  }
+
+  .socialMedia {
+    margin-top: 40px;
+    width: 400px;
+    height: 530px;
+  }
+
+  .rijen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socialmediaLijn {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .rijen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contactFormulier {
+    width: auto;
+  }
+
+  .googleMaps {
+    width: auto;
+  }
+
+  .socialMedia {
+    width: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 30px;
+  }
+  .socialMedia {
+    height: 400px;
+  }
+  .socialmediaLijn {
+    font-size: 15px;
+  }
+
+  .contactFormulier {
+    width: 300px;
+  }
+
+  .googleMaps {
+    width: 300px;
+  }
+
+  .contactFormulier {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+}

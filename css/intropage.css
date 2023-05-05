@@ -1,0 +1,288 @@
+h3 {
+  font-size: 26px;
+}
+.intro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("/images/intropagina.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+
+
+.achtergrondIndex {
+  padding-bottom: 180px;
+}
+
+/* navbar */
+.navbarlogo {
+  height: 100px;
+  width: 100px;
+  padding-bottom: 10px;
+}
+
+nav {
+  background-image: url(/images/navbar-background2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.navtext:hover {
+  color: rgb(189, 221, 32);
+}
+.navtext {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.carousel-item img {
+  border-radius: 8%;
+}
+.titelpagina {
+  padding-bottom: 20px;
+}
+.introbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.introtekst {
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.IntroImgLogos {
+  height: 400px;
+}
+/* Cards */
+
+.card-body {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  position: relative;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 1.25rem;
+}
+.card-header {
+  background: linear-gradient(
+    0deg,
+    rgba(84, 97, 169, 1) 11%,
+    rgba(169, 179, 236, 1) 100%
+  );
+}
+.card-header-praktische {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.card-body-text {
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  top: 4%;
+}
+.card-header-pyschosociale {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.icoon-container-ark {
+  margin-top: 1.5rem;
+}
+.Iconen {
+  height: 100px;
+}
+.icoon-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icoon-container img {
+  margin-left: 0.625rem;
+}
+
+.logokolom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Ark-img {
+  padding-top: 40px;
+  height: 310px;
+}
+
+.Vrijetijdnooitthuis {
+  height: 200px;
+}
+
+.Horizon {
+  height: 200px;
+}
+/* icooncontainer classes van elk topic voor de tekst naar boven te pushen in de cards*/
+
+.Globale {
+  margin-top: 1.5rem;
+}
+
+.Praktische {
+  margin-top: 7rem;
+}
+
+.cardlayout {
+  border-radius: 1%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.section1 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aanmeldtext {
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.aanmeldenbox {
+  box-sizing: border-box;
+  height: 120px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 900;
+  color: white;
+  margin-top: 100px;
+  background-color: rgb(84, 97, 169);
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.aanmeldenknop {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 80px;
+  width: 250px;
+  display: inline-block;
+  background: linear-gradient(
+    0deg,
+    rgba(84, 97, 169, 1) 0%,
+    rgba(172, 180, 226, 1) 100%
+  );
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.aanmeldenknop:hover {
+  height: 85px;
+  width: 255px;
+  font-size: 21px;
+  color: #fff;
+  background: linear-gradient(
+    0deg,
+    rgba(186, 251, 135, 1) 11%,
+    rgba(169, 179, 236, 1) 100%
+  );
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.pricing-column {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1635px) {
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+
+  .logokolom {
+    width: 50%;
+  }
+  .introbox {
+    width: 50%;
+  }
+  .pricing-column {
+    width: 50%;
+  }
+  .card-body-text {
+    font-size: 15px;
+  }
+  .aanmeldtext {
+    width: 350px;
+  }
+  .aanmeldenbox {
+    height: 150px;
+  }
+
+  .knopbox {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Ark-img {
+    margin-left: 105%;
+  }
+  .Vrijetijdnooitthuis {
+    height: 130px;
+  }
+  .Dagbestedingcard {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 992px) {
+  .navbarlogo {
+    display: none;
+  }
+  .navbar {
+    --bs-navbar-padding-y: 5rem;
+  }
+}
+@media (max-width: 768px) {
+  .knopbox {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .aanmeldtext {
+    padding-left: 0;
+  }
+  .aanmeldenbox {
+    height: 330px;
+  }
+
+  .card-body-text {
+    font-size: 14px;
+  }
+}

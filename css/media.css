@@ -1,0 +1,94 @@
+.achtergrondMedia {
+  background-image: url(/images/achtergrondMedia.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 150px;
+}
+
+.mediafotocarousel {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.mobileframe {
+  padding-bottom: 1.5%;
+  box-shadow: 4px 4px 20px rgba(240, 248, 5, 1);
+  background: rgb(16, 91, 227, 0.5);
+  background: radial-gradient(
+    circle,
+    rgba(16, 91, 227, 0.5) 0%,
+    rgba(92, 56, 56, 0.5) 100%
+  );
+  border-radius: 8%;
+}
+
+#mobileMediaCarousel {
+  margin: 10px auto 50px auto;
+}
+
+.mobileframediv {
+  padding-top: 4%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.fototitel {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white;
+}
+.carousel-item img {
+  object-fit: cover;
+  height: 600px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 8%;
+}
+
+.carousel-inner {
+  padding-top: 2%;
+  padding-bottom: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+  
+}
+
+.videoframe {
+  box-shadow: 4px 4px 20px rgba(240, 248, 5, 1);
+  background: rgb(16, 91, 227, 0.5);
+  background: radial-gradient(
+    circle,
+    rgba(16, 91, 227, 0.5) 0%,
+    rgba(92, 56, 56, 0.5) 100%
+  );
+  border-radius: 8%;
+  padding-bottom: 14%;
+  width: 800px;
+}
+
+.fbframe {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  margin-right: 2%;
+  margin-top: 1.5%;
+}
+
+.videoDiv {
+  padding-top: 2%;
+}
+
+.videoImg {
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.fotoimgTitle {
+  padding-top: 3%;
+  padding-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 90%;
+}
