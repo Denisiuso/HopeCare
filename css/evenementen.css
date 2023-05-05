@@ -207,40 +207,47 @@ h1 {
  }
 }
 
-@media (max-width: 999px){
-  p{
+@media (max-width: 999px) {
+  p {
     font-size: 10px;
   }
-  
-  .picto{
+
+  .picto {
     width: 50px;
   }
-.titel{
-  padding-left: 50px;
-  padding-right: 50px;
- }
- .eventbox{
-  height: 600px;
- }
+  .titel {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .eventbox {
+    height: 600px;
+  }
 }
-@media screen and (max-width: 487px){
-h1{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-  .titel{
+@media screen and (max-width: 487px) {
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .titel {
     font-size: 18px;
     padding-right: 50px;
-    height: 250px;
   }
   .client-review-text-box p {
     font-size: 14px;
   }
-
 }
 
-@media screen and (max-width: 436px){
-.eventbox{
-  height: 600px;
+@media screen and (max-width: 436px) {
+  .eventbox {
+    height: 600px;
+  }
 }
+
+@media screen and (max-width: 340px) {
+  .titel {
+    font-size: 16px;
+  }
+  .client-review-text-box p {
+    font-size: 12px;
+  }
 }
