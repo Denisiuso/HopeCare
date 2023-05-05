@@ -1,17 +1,7 @@
 h3 {
   font-size: 26px;
 }
-.intro {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: url("./images/intropagina.png");
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-}
+
 
 
 
@@ -27,7 +17,7 @@ h3 {
 }
 
 nav {
-  background-image: url(/images/navbar-background2.png);
+  background-image: url(./images/navbar-background2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
