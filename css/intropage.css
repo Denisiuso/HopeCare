@@ -5,7 +5,7 @@ h3 {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../images/intropagina.png");
+  background-image: url("./images/intropagina.png");
   background-size: cover;
   background-position: center;
   height: 100%;
