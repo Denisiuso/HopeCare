@@ -220,13 +220,14 @@ h3 {
     font-size: 30px;
   }
   .socialMedia {
-    height: 400px;
+    height: 500px;
   }
   .socialmediaLijn {
     font-size: 15px;
   }
 
   .contactFormulier {
+    height: fit-content;
     width: 300px;
   }
 
@@ -240,3 +241,4 @@ h3 {
     align-items: center;
   }
 }
+
