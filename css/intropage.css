@@ -1,5 +1,5 @@
 h3 {
-  font-size: 1.625rem;
+  font-size: 1.525rem;
 }
 
 .achtergrondIndex {
@@ -14,7 +14,7 @@ nav .navbarlogo {
 }
 
 nav {
-  background-image: url(../images/navbar-background2.png);
+  background-image: url(/images/navbar-background2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,10 +29,8 @@ nav {
   font-weight: bolder;
 }
 
-.carousel-item img {
-  border-radius: 8%;
-}
 .titelpagina {
+  font-size: 1.6rem;
   padding-bottom: 20px;
 }
 .introbox {
@@ -47,23 +45,31 @@ nav {
   font-weight: 700;
   font-size: 1rem;
 }
-
-.IntroImgLogos {
-  height: 400px;
+.logokolom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-/* Cards */
 
+/* Cards */
+.card{
+  background-color: rgba(255, 255, 255, 0.859);
+}
 .card-body {
+  text-align: justify;
   font-size: 1rem;
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
-  position: relative;
-  height: 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
   padding-bottom: 1.25rem;
+}
+
+
+.section1-card-body{
+  margin-top: 40px;
+  height: 500px;
 }
 .card-header {
   background: linear-gradient(
@@ -74,78 +80,79 @@ nav {
   padding-left: 20px;
   padding-right: 20px;
 }
-.card-header-praktische{
-  padding-left: 40px;
-  padding-right: 40px;
-}
-.card-header-globale{
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-
 
 .card-body .card-body-text {
   padding-left: 10px;
   padding-right: 10px;
-  position: absolute;
   top: 4%;
+  margin-bottom: 100px;
 }
 
-.icoon-container-ark {
-  margin-top: 1.5rem;
-}
 .Iconen {
   height: 100px;
 }
 .icoon-container {
+  position: absolute;
+  bottom: 10px;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
 }
 
 .icoon-container img {
   margin-left: 0.625rem;
 }
 
-.logokolom {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.Ark-img {
-  padding-top: 40px;
+.IntroImgLogos{
+  margin: 0 auto;
   height: 310px;
-}
-
-.Vrijetijdnooitthuis {
-  height: 200px;
+  width: 250px;
 }
 
 .Horizon {
+  margin-top: 10px;
   height: 200px;
 }
 /* icooncontainer classes van elk topic voor de tekst naar boven te pushen in de cards*/
+.pricing-column {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 .cardlayout {
   border-radius: 1%;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
+
 .section1 {
+  border-top-width: 50px;
+  border-top-style: solid;
+  border-top-color: rgb(129, 145, 235);
+  border-bottom-width: 50px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(129, 145, 235);
   margin-top: 50px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
+
 .section2 {
   margin-top: 50px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  background-image: url(/images/arkVanPollareAchtergrond.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
 }
 
 .section3 {
   margin-top: 50px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom{
+  margin-top: 30px;
   justify-content: center;
   align-items: center;
 }
@@ -200,26 +207,12 @@ nav {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
-.pricing-column {
-  margin-top: 20px;
-}
-
-@media (min-width: 993px) and (max-width: 1635px) {
+@media (min-width: 768px) and (max-width: 1635px) {
   h2 {
     font-size: 1.25rem;
   }
   h3 {
     font-size: 1.125rem;
-  }
-
-  .logokolom {
-    width: 50%;
-  }
-  .introbox {
-    width: 50%;
-  }
-  .pricing-column {
-    width: 50%;
   }
   .card-body-text {
     font-size: 0.938rem;
@@ -236,32 +229,18 @@ nav {
     display: flex;
     flex-direction: column;
   }
-
-  .Ark-img {
-    margin-left: 150%;
-  }
-
-  .Vrijetijdnooitthuis {
-    height: 130px;
-  }
-  .Dagbestedingcard {
-    margin-right: 0px;
-  }
-}
-
-@media (max-width: 992px) {
   h2 {
     padding-top: 5px;
     font-size: 1.031rem;
-    font-weight: 900;
+    font-weight: 700;
   }
   h3 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 900;
   }
 
   p {
-    font-size: 0.875rem;
+    font-size: 0.8rem;
   }
   .navbarlogo {
     height: 200px;
@@ -270,13 +249,29 @@ nav {
   .navbar {
     --bs-navbar-padding-y: 7rem;
   }
-  .arkrij {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+  .Iconen {
+    height: 60px;
   }
 }
+
 @media (max-width: 768px) {
+  .navbar {
+    --bs-navbar-padding-y: 5rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  .navbarknop {
+    margin-right: 20px;
+  }
+  h2{
+    font-size: 1.2rem;
+  }
+  
+  p {
+    font-size: 0.7rem;
+  }
   .knopbox {
     margin-top: 30px;
     align-items: center;
@@ -293,9 +288,6 @@ nav {
   .card-body-text {
     font-size: 0.875rem;
   }
-}
-
-@media (max-width: 768px) {
   .aanmeldenbox {
     align-items: center;
     display: flex;
@@ -305,20 +297,39 @@ nav {
     height: 300px;
   }
   .Iconen {
-    height: 40px;
+    height: 60px;
   }
- 
+  
+
+
+@media (max-width: 710px) {
+  .introbox {
+    flex-direction: column;
+  }
+  .IntroImgLogos {
+    margin: 0 auto;
+  }
+  .logokolom {
+    margin: 0 auto;
+  }
 }
 
+
+
+}
 @media (max-width: 450px) {
   h3 {
-    font-size: 1rem ;
+    font-size: 1rem;
+  }
+
+  h2{
+    font-size: 1.2rem;
   }
   .navbarknop {
     margin-right: 20px;
   }
-  p{
-    font-size: 0.7rem;
+  p {
+    font-size: 0.8rem;
   }
 }
 
@@ -329,24 +340,21 @@ nav {
   .Hopecarelogo {
     width: 250px;
   }
-  .Vrijetijdnooitthuis {
-    height: 100px;
-    width: 200px;
-  }
+
   .Horizon {
     height: 150px;
     width: 200px;
   }
-  .card-body p {
-   
-    padding-left: 20px;
-    padding-right: 20px;
+  p{
+    text-align: center;
   }
 }
 
 @media (max-width: 250px) {
   .Iconen {
-    height: 20px;
+    height: 30px;
   }
-  
+  .psychosociale-card{
+    height: 700px;
+  }
 }
