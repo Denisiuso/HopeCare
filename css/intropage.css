@@ -14,7 +14,7 @@ nav .navbarlogo {
 }
 
 nav {
-  background-image: url(/images/navbar-background2.png);
+  background-image: url(../images/navbar-background2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -139,7 +139,7 @@ nav {
   margin-top: 50px;
   display: flex;
   justify-content: center;
-  background-image: url(/images/arkVanPollareAchtergrond.png);
+  background-image: url(../images/arkVanPollareAchtergrond.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 50px;
