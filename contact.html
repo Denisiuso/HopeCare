@@ -78,7 +78,7 @@
               >Activiteiten</a
             >
 
-           <!--   <a class="nav-link mx-5 navtext" href="portaal.html"
+            <!--   <a class="nav-link mx-5 navtext" href="portaal.html"
               >Onze clienten</a> -->
             <a
               class="nav-link mx-5 active navtext"
@@ -99,36 +99,28 @@
 
       <div class="container-fluid">
         <div class="row rijen">
-          <div class="col-xl-4 googlediv text-center">
-            <div class="googleMaps">
-              <h3>De regio's waar wij nu actief zijn:</h3>
-              <iframe
-                src="https://www.google.com/maps/d/u/0/embed?mid=1L-zqw_s5CaWjnsmlm_8ICO8VGkeiGpY&ehbc=2E312F"
-                width="300"
-                height="300"
-              ></iframe>
-            </div>
-          </div>
           <div class="col-xl-4 socialdiv">
             <div class="socialMedia">
               <div class="socialMediaLinks">
                 <p class="socialmediaLijn">
                   <a
+                    class="socialmediatexthover"
                     href="https://www.facebook.com/HopeCareBegeleiding"
                     target="_blank"
-                    ><i class="fa-brands fa-square-facebook fa-2xl"></i
-                  ></a>
-                  Onze Facebookpagina
+                  >
+                    <i class="fa-brands fa-square-facebook fa-2xl"></i>Onze
+                    Facebookpagina
+                  </a>
                 </p>
                 <p class="socialmediaLijn">
                   <a
+                    class="socialmediatexthover"
                     href="https://www.instagram.com/hopecare_begeleiding_aan_huis/"
                     target="_blank"
-                    ><i class="fa-brands fa-2xl fa-instagram"></i
-                  ></a>
-                  Instagram
+                  >
+                    <i class="fa-brands fa-2xl fa-instagram"></i>Instagram
+                  </a>
                 </p>
-
                 <!-- TIKTOK 
 
                 <p class="socialmediaLijn">
@@ -136,15 +128,15 @@
                 </p> -->
 
                 <p class="socialmediaLijn">
-                  <i class="fa-brands fa-whatsapp fa-2xl"></i> Whats App
+                  <i class="fa-brands fa-whatsapp fa-2xl"></i>Whats App
                   0470/276153
                 </p>
                 <p class="socialmediaLijn">
-                  <i class="fa-solid fa-phone-volume fa-2xl"></i> Telefonisch
+                  <i class="fa-solid fa-phone-volume fa-2xl"></i>Telefonisch
                   0470/276153
                 </p>
                 <p class="socialmediaLijn">
-                  <i class="fa-sharp fa-solid fa-envelope fa-2xl"></i> E-mail
+                  <i class="fa-sharp fa-solid fa-envelope fa-2xl"></i>E-mail
                   <a href="mailto:Debby@hopecare.be">Debby@hopecare.be</a>
                 </p>
               </div>
@@ -162,7 +154,12 @@
                 >
                   <div class="form">
                     <label>Uw Naam:</label>
-                    <input type="text" name="uwNaam" value="" />
+                    <input
+                      class="naamInput"
+                      type="text"
+                      name="uwNaam"
+                      value=""
+                    />
                     <br />
                   </div>
                   <div class="form">
@@ -179,10 +176,10 @@
                     <label class="bericht">Uw Bericht:</label>
                     <br />
                     <textarea
+                      class="berichtInput"
                       name="uwBericht"
                       rows="10"
                       cols="30"
-                      style="width: 266px; height: 112px"
                     ></textarea>
                     <br />
                   </div>
@@ -191,7 +188,16 @@
               </div>
             </div>
           </div>
-          <p class="Copyright text-center">© HopeCare</p>
+          <div class="col-xl-4 googlediv text-center">
+            <div class="googleMaps">
+              <h3>De regio's waar wij nu actief zijn:</h3>
+              <iframe
+                src="https://www.google.com/maps/d/u/0/embed?mid=1L-zqw_s5CaWjnsmlm_8ICO8VGkeiGpY&ehbc=2E312F"
+                class="google"
+              ></iframe>
+            </div>
+          </div>
+          <p class="Copyright text-center">Copyright © HopeCare</p>
         </div>
       </div>
     </div>

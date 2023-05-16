@@ -1,26 +1,13 @@
 h3 {
-  font-size: 26px;
+  font-size: 1.525rem;
 }
-.intro {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: url("/images/intropagina.png");
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-}
-
-
 
 .achtergrondIndex {
   padding-bottom: 180px;
 }
 
 /* navbar */
-.navbarlogo {
+nav .navbarlogo {
   height: 100px;
   width: 100px;
   padding-bottom: 10px;
@@ -38,14 +25,12 @@ nav {
   color: rgb(189, 221, 32);
 }
 .navtext {
-  font-size: x-large;
+  font-size: 1.3rem;
   font-weight: bolder;
 }
 
-.carousel-item img {
-  border-radius: 8%;
-}
 .titelpagina {
+  font-size: 1.6rem;
   padding-bottom: 20px;
 }
 .introbox {
@@ -57,9 +42,8 @@ nav {
   margin-top: 40px;
   text-align: center;
   font-family: "Libre Baskerville", serif;
-
   font-weight: 700;
-  font-size: 17px;
+  font-size: 1rem;
 }
 
 .IntroImgLogos {
@@ -68,15 +52,20 @@ nav {
 /* Cards */
 
 .card-body {
+  
+  text-align: justify;
+  font-size: 1rem;
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
-  position: relative;
-  height: 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
   padding-bottom: 1.25rem;
+}
+
+.section1-card-body{
+  margin-top: 40px;
+  height: 500px;
 }
 .card-header {
   background: linear-gradient(
@@ -84,30 +73,25 @@ nav {
     rgba(84, 97, 169, 1) 11%,
     rgba(169, 179, 236, 1) 100%
   );
+  padding-left: 20px;
+  padding-right: 20px;
 }
-.card-header-praktische {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.card-body-text {
+
+.card-body .card-body-text {
   padding-left: 10px;
   padding-right: 10px;
-  position: absolute;
   top: 4%;
+  margin-bottom: 100px;
 }
-.card-header-pyschosociale {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.icoon-container-ark {
-  margin-top: 1.5rem;
-}
+
 .Iconen {
   height: 100px;
 }
 .icoon-container {
+  position: absolute;
+  bottom: 10px;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
 }
 
 .icoon-container img {
@@ -124,21 +108,12 @@ nav {
   height: 310px;
 }
 
-.Vrijetijdnooitthuis {
-  height: 200px;
-}
-
 .Horizon {
   height: 200px;
 }
 /* icooncontainer classes van elk topic voor de tekst naar boven te pushen in de cards*/
-
-.Globale {
-  margin-top: 1.5rem;
-}
-
-.Praktische {
-  margin-top: 7rem;
+.pricing-column {
+  margin-top: 20px;
 }
 
 .cardlayout {
@@ -149,16 +124,15 @@ nav {
   margin-top: 50px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .section2 {
   margin-top: 50px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .section3 {
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,7 +166,7 @@ nav {
   );
   color: #fff;
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -201,10 +175,10 @@ nav {
   transition: all 0.3s ease-in-out;
 }
 
-.aanmeldenknop:hover {
+.aanmeldenbox .aanmeldenknop:hover {
   height: 85px;
   width: 255px;
-  font-size: 21px;
+  font-size: 1.313rem;
   color: #fff;
   background: linear-gradient(
     0deg,
@@ -213,30 +187,20 @@ nav {
   );
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
+@media (max-width: 1412px){
+  
 
-.pricing-column {
-  margin-top: 20px;
+
 }
-
 @media (min-width: 768px) and (max-width: 1635px) {
   h2 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   h3 {
-    font-size: 18px;
-  }
-
-  .logokolom {
-    width: 50%;
-  }
-  .introbox {
-    width: 50%;
-  }
-  .pricing-column {
-    width: 50%;
+    font-size: 1.125rem;
   }
   .card-body-text {
-    font-size: 15px;
+    font-size: 0.938rem;
   }
   .aanmeldtext {
     width: 350px;
@@ -250,27 +214,34 @@ nav {
     display: flex;
     flex-direction: column;
   }
+  h2 {
+    padding-top: 5px;
+    font-size: 1.031rem;
+    font-weight: 900;
+  }
+  h3 {
+    font-size: 1rem;
+    font-weight: 900;
+  }
 
-  .Ark-img {
-    margin-left: 105%;
+  p {
+    font-size: 0.875rem;
   }
-  .Vrijetijdnooitthuis {
-    height: 130px;
-  }
-  .Dagbestedingcard {
-    margin-right: 0px;
-  }
-}
-@media (max-width: 992px) {
   .navbarlogo {
-    display: none;
+    height: 200px;
+    width: 200px;
   }
   .navbar {
-    --bs-navbar-padding-y: 5rem;
+    --bs-navbar-padding-y: 7rem;
+  }
+  .Iconen {
+    height: 80px;
   }
 }
+
 @media (max-width: 768px) {
   .knopbox {
+    margin-top: 30px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -283,6 +254,53 @@ nav {
   }
 
   .card-body-text {
-    font-size: 14px;
+    font-size: 0.875rem;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .aanmeldenbox {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .Hopecarelogo {
+    height: 300px;
+  }
+  .Iconen {
+    height: 60px;
+  }
+}
+
+@media (max-width: 450px) {
+  h3 {
+    font-size: 1rem;
+  }
+  .navbarknop {
+    margin-right: 20px;
+  }
+  p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .Iconen {
+    height: 30px;
+  }
+  .Hopecarelogo {
+    width: 250px;
+  }
+
+  .Horizon {
+    height: 150px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 250px) {
+  .Iconen {
+    height: 20px;
   }
 }

@@ -2,7 +2,7 @@ h1 {
   margin-top: 20px;
   padding-bottom: 0.5%;
   font-family: "Libre Baskerville", serif;
-  font-size: 60px;
+  font-size: 3.75rem;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
@@ -11,7 +11,7 @@ h2 {
   padding-right: 50px;
   font-family: "Libre Baskerville", serif;
   font-weight: bolder;
-  font-size: 50px;
+  font-size: 3.125rem;
   padding-bottom: 0px;
 }
 
@@ -30,18 +30,24 @@ h3 {
   display: flex;
   justify-content: center;
 }
-
+.googleMaps {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .googlediv {
-  display: flex;
   justify-content: center;
+  align-items: center;
+}
+.google {
+  height: 300px;
 }
 .socialMedia {
   margin-top: 50px;
   padding-top: 20px;
   background: linear-gradient(
     0deg,
-    rgba(84, 97, 169, 1) 0%,
-    rgba(172, 180, 226, 1) 100%
+    rgb(150, 164, 244) 0%,
+    rgb(193, 196, 210) 100%
   );
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   border-radius: 8%;
@@ -78,23 +84,22 @@ h3 {
   background: #ffffff;
   color: black;
 }
-
+.socialmediatexthover:hover {
+  color: rgb(27, 254, 251);
+}
 .socialMediaLinks {
-
   padding-top: 20px;
   padding-bottom: 20px;
-  
-  
-  
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .socialmediaLijn {
-  
   padding-left: 20px;
   padding-top: 40px;
   font-family: "Libre Baskerville", serif;
   font-weight: bolder;
-  font-size: x-large;
+  font-size: 1.3rem;
 }
 
 .contactFormulier {
@@ -115,7 +120,7 @@ h3 {
 
 .googleMaps {
   margin-top: 40px;
-  padding-bottom: 110px;
+  padding-bottom: 310px;
   padding-top: 50px;
 
   background-color: rgba(219, 204, 204, 0.35);
@@ -173,14 +178,16 @@ h3 {
   .contactFormulier {
     height: 530px;
   }
-
+  .berichtInput {
+    height: 150px;
+  }
   .googleMaps {
     width: 400px;
   }
 
   .socialMedia {
     margin-top: 40px;
-    width: 400px;
+    width: 500px;
     height: 530px;
   }
 
@@ -191,7 +198,10 @@ h3 {
   }
 
   .socialmediaLijn {
-    font-size: 20px;
+    font-size: 1.25rem;
+  }
+  .googleMaps {
+    height: 530px;
   }
 }
 
@@ -206,8 +216,10 @@ h3 {
     width: auto;
   }
 
-  .googleMaps {
-    width: auto;
+  .googlediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .socialMedia {
@@ -217,20 +229,27 @@ h3 {
 
 @media (max-width: 450px) {
   h1 {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
   .socialMedia {
-    height: 400px;
+    height: 500px;
   }
   .socialmediaLijn {
-    font-size: 15px;
+    font-size: 0.938rem;
   }
 
   .contactFormulier {
+    height: fit-content;
     width: 300px;
   }
-
+  .berichtInput {
+    width: 180px;
+  }
+  .google {
+    width: 250px;
+  }
   .googleMaps {
+    height: 500px;
     width: 300px;
   }
 
@@ -238,5 +257,32 @@ h3 {
     width: 300px;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (max-width: 250px) {
+  .socialMedia {
+    height: 520px;
+  }
+
+  .contactFormulier {
+    height: fit-content;
+    width: 220px;
+  }
+  .naamInput {
+    width: 150px;
+  }
+  .emailAdresInput {
+    width: 150px;
+  }
+  .berichtInput {
+    width: 150px;
+  }
+  .google {
+    width: 200px;
+  }
+  .googleMaps {
+    height: 500px;
+    width: 250px;
   }
 }
